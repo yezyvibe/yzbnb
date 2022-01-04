@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 900px;
+  height: 700px;
 }
 
 .main {
@@ -104,6 +104,7 @@
   /* padding: 50px 50px; */
   background: url(./src/air.jpg);
   border-radius: 20px;
+  background-size: cover;
 }
 
 .main-image-title {
@@ -170,9 +171,9 @@
 .trip-suggestion-part {
   display: flex;
   flex-direction: column;
+  margin: auto;
   width: 1200px;
   height: 500px;
-  margin: auto;
 }
 
 .cards {
@@ -240,32 +241,74 @@
 
 .trip-suggestion-part-title {
   margin-top: 100px;
-  font-weight: 550;
+  font-weight: 500;
   margin-left: 10px;
 }
 
 .bottom {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  margin: auto;
+  width: 1200px;
+  height: 500px;
+}
+
+.bottom-experienct-title {
+  font-weight: 500;
+  display: flex;
+  margin-top: 150px;
 }
 
 .bottom-experience {
-  justify-content: center;
+  width: 1200px;
+  height: 500px;
   display: flex;
+  margin: auto;
 }
 
 .bottom-experience-left {
-  width: 400px;
-  height: 300px;
+  background: url(./src/experience3.jpg);
+  background-size: cover;
+  width: 850px;
+  height: 500px;
+  border-radius: 20px;
+  margin-right: 7px;
 }
 
 .bottom-experience-right {
-  width: 400px;
-  height: 300px;
+  background: url(./src/experience2.png);
+  background-size: cover;
+  width: 850px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 7px;
 }
 
-.experience-img {
-  width: 400px;
-  height: 300px;
+.bottom-experience-btn1 {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  background-color: aliceblue;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.bottom-experience-btn2 {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: aliceblue;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.bottom-experience-text {
+  margin-left: 20px;
+  color: aliceblue;
 }
