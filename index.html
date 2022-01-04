@@ -7,37 +7,84 @@
     <title>yzbnb</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="total-body">
     <div class="nav">
       <div class="company-title">
         <img class="company-logo" src="./src/logo.jpg" alt="logo" />
         <span class="company-name">airbnb</span>
       </div>
       <div class="nav-center-items">
-        <div class="nav-item">숙소</div>
-        <div class="nav-item">체험</div>
-        <div class="nav-item">온라인 체험</div>
+        <div class="nav-item">Places to stay</div>
+        <div class="nav-item">Experiences</div>
+        <div class="nav-item">Online Experiences</div>
       </div>
       <div class="nav-right-items">
-        <div class="nav-item">호스트되기</div>
-        <div class="nav-item">마이페이지</div>
+        <div class="nav-item">Become a Host</div>
+        <div class="nav-item">My Page</div>
       </div>
     </div>
 
     <div class="top">
       <div class="main">
         <div class="search-bar">
-          <div class="search-item">위치</div>
-          <div class="search-item">체크인</div>
-          <div class="search-item">체크아웃</div>
-          <div class="search-item">인원</div>
+          <div class="search-bar-item">
+            <label for="location" class="search-bar-item-title">Location</label>
+            <input
+              name="location"
+              class="search-bar-item-input"
+              type="text"
+              placeholder="Where are you going?"
+            />
+          </div>
+          <div class="search-bar-item">
+            <label for="checkin" class="search-bar-item-title">Check in</label>
+            <input
+              name="checkin"
+              class="search-bar-item-input"
+              type="text"
+              placeholder="Add dates"
+            />
+          </div>
+          <div class="search-bar-item">
+            <label for="checkout" class="search-bar-item-title"
+              >Check out</label
+            >
+            <input
+              name="checkout"
+              class="search-bar-item-input"
+              type="text"
+              placeholder="Add dates"
+            />
+          </div>
+          <div class="search-bar-item">
+            <label for="guests" class="search-bar-item-title">Guests</label>
+            <input
+              name="guests"
+              class="search-bar-item-input"
+              type="text"
+              placeholder="Add guests"
+            />
+          </div>
           <button class="search-item-btn">🔍</button>
         </div>
 
-        <div class="main-image">
-          <h1 class="main-image-title">에어비앤비가</h1>
-          <h1 class="main-image-title">여행지를 찾아드릴게요!</h1>
-          <button class="main-image-btn">유연한 검색</button>
+        <div class="main-image-box">
+          <h1 class="main-image-title">Not sure where to go? Perfect.</h1>
+          <button class="main-image-btn">I'm flexible</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="middle">
+      <div class="gift-card-zone">
+        <div class="gift-card-left">
+          <h3>Introducing</h3>
+          <h1 class="gift-card-title">Airbnb</h1>
+          <h1 class="gift-card-title">gift cards</h1>
+          <button class="gift-card-btn">shop now</button>
+        </div>
+        <div class="gift-card-right">
+          <img class="gift-card-img" src="src/card.png" alt="" />
         </div>
       </div>
     </div>
