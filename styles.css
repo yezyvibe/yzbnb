@@ -1,0 +1,106 @@
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.company-title {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.company-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.nav-center-items {
+  display: flex;
+  margin: auto;
+  color: aliceblue;
+}
+
+.nav-right-items {
+  display: flex;
+  color: aliceblue;
+  /* margin-left: auto; */
+}
+
+.nav-item {
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+.top {
+  background-color: black;
+}
+.main {
+  width: 800px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+
+.search-bar {
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 18px;
+  background-color: aliceblue;
+  height: 50px;
+}
+
+.search-item {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.search-item-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ff385c;
+  border: none;
+}
+
+.main-image {
+  background: url(./src/air.jpg);
+  width: 600px;
+  height: 600px;
+  background-size: 100% 100%;
+  background-position: center;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 50px 50px;
+}
+
+.main-image-title {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.main-image-btn {
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #8d10be;
+  /* color: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%); */
+}
