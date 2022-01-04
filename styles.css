@@ -81,6 +81,7 @@
 .search-bar-item-input {
   border: none;
   width: 130px;
+  background-color: aliceblue;
 }
 
 .search-item-btn {
@@ -146,6 +147,7 @@
 
 .gift-card-left {
   text-align: center;
+  margin-right: 20px;
 }
 .gift-card-title {
   font-size: 50px;
@@ -163,4 +165,107 @@
   border-radius: 10px;
   margin-top: 17px;
   font-size: 17px;
+}
+
+.trip-suggestion-part {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+}
+
+.card-image {
+  width: 288px;
+  height: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.trip-suggestion-card {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 380px;
+  border-radius: 20px;
+  margin: 7px;
+}
+
+.card-bottom1 {
+  background-color: rgb(222, 49, 81);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 380px;
+}
+
+.card-bottom2 {
+  background-color: rgb(204, 45, 74);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 380px;
+}
+.card-bottom3 {
+  background-color: rgb(188, 26, 110);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 380px;
+}
+.card-bottom4 {
+  background-color: rgb(217, 59, 48);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 380px;
+}
+
+.card-title {
+  color: aliceblue;
+  font-weight: 600;
+  margin-left: 14px;
+  margin-bottom: 0px;
+}
+
+.card-subtitle {
+  color: aliceblue;
+  font-weight: 300;
+  font-size: small;
+  margin-left: 14px;
+  margin-top: 0px;
+}
+
+.trip-suggestion-part-title {
+  margin-top: 100px;
+  font-weight: 550;
+  margin-left: 10px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom-experience {
+  justify-content: center;
+  display: flex;
+}
+
+.bottom-experience-left {
+  width: 400px;
+  height: 300px;
+}
+
+.bottom-experience-right {
+  width: 400px;
+  height: 300px;
+}
+
+.experience-img {
+  width: 400px;
+  height: 300px;
 }
