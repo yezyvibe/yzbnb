@@ -72,6 +72,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .search-bar-item-title {
   margin-right: 90px;
   font-size: 12px;
@@ -94,6 +95,7 @@
   margin: 4px auto;
   margin-right: 5px;
   margin-top: 6px;
+  color: aliceblue;
 }
 
 .main-image-box {
@@ -102,7 +104,7 @@
   display: table-cell;
   vertical-align: bottom;
   /* padding: 50px 50px; */
-  background: url(./src/air.jpg);
+  background: url(./src/main-image.jpg);
   border-radius: 20px;
   background-size: cover;
 }
@@ -126,7 +128,7 @@
   text-decoration: none;
   padding: 10px 15px;
   color: #8d10be;
-  /* color: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%); */
+  border: none;
 }
 
 .gift-card-zone {
@@ -134,8 +136,9 @@
   align-items: center;
   justify-content: center;
   width: 1200px;
-  height: 500px;
+  height: 600px;
   margin: auto;
+  background: url(./src/giftcard.jpg);
   background-color: antiquewhite;
   border-radius: 20px;
 }
@@ -148,10 +151,11 @@
 
 .gift-card-left {
   text-align: center;
-  margin-right: 20px;
+  margin-right: 500px;
+  margin-bottom: 50px;
 }
 .gift-card-title {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   margin: 0;
 }
@@ -164,7 +168,7 @@
   border: none;
   color: aliceblue;
   border-radius: 10px;
-  margin-top: 17px;
+  margin-top: 25px;
   font-size: 17px;
 }
 
@@ -250,7 +254,8 @@
   flex-direction: column;
   margin: auto;
   width: 1200px;
-  height: 500px;
+  height: 700px;
+  margin-bottom: 250px;
 }
 
 .bottom-experienct-title {
@@ -267,19 +272,19 @@
 }
 
 .bottom-experience-left {
-  background: url(./src/experience3.jpg);
+  background: url(./src/experience1.jpg);
   background-size: cover;
   width: 850px;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
   margin-right: 7px;
 }
 
 .bottom-experience-right {
-  background: url(./src/experience2.png);
+  background: url(./src/experience2.jpg);
   background-size: cover;
   width: 850px;
-  height: 500px;
+  height: 600px;
   border-radius: 20px;
   margin-left: 7px;
 }
@@ -311,4 +316,41 @@
 .bottom-experience-text {
   margin-left: 20px;
   color: aliceblue;
+}
+
+.end-point {
+  width: 1200px;
+  height: 650px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.bottom-hosting {
+  background: url(./src/host.jpg);
+  background-size: cover;
+  width: 1200px;
+  height: 600px;
+  border-radius: 17px;
+}
+
+.bottom-hosting-text {
+  margin-left: 100px;
+  color: aliceblue;
+  padding-top: 50px;
+  font-size: 80px;
+}
+
+.bottom-hosting-btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: aliceblue;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 20px;
 }
